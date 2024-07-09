@@ -34,6 +34,7 @@ header span {
     min-height: 100vh;
     /* 📍 Свойства flexbox для размещения container-a вертикально по центру */
     display: flex;  
+    align-items: center;
 }
 
 .main-section .wrapper {
@@ -182,6 +183,7 @@ form {
 .btn:hover {
     /* 📍 Стили для кнопки при наведении курсора */
     border-color: rgba(41, 101, 241, 0.9);
+
 }
 
 .line {
